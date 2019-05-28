@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Contact Manager</string>
+    <string name="avatar">Avatar</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="register"><u>Register?</u></string>
+    <string name="logout">Logout</string>
+    <string name="profile_TextView">Profile</string>
+    <string name="bio"> Bio:\n
+                        Name: A\n
+                        Address: 123 OPL\n
+                        Phone:  407\n
+                        </string>
+    <string name="profile">profile_desc_img</string>
+    <string name="register_title_textView">Register</string>
+    <string name="reg_enter_name">John William</string>
+    <string name="reg_phone_num">E.g. xxx-xxx-xxxx</string>
+    <string name="reg_address">E.g. 123 OPL, Orlando</string>
+    <string name="reg_password_again">Re-enter password</string>
+    <string name="reg_password">Enter password</string>
+</resources>
