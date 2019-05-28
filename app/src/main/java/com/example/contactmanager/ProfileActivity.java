@@ -17,7 +17,7 @@ public class ProfileActivity extends AppCompatActivity {
 
         Intent intent = getIntent();
         String gUserName = intent.getStringExtra(MainActivity.USER_NAME);
-        loggedInUser.setText("Welcome, " + gUserName);
+        loggedInUser.setText("Welcome, " + gUserName + "!");
     }
 
     public void logOut(View view) {
