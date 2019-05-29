@@ -1,4 +1,4 @@
-package com.example.contactmanager;
+package com.example.contact_manager;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -9,7 +9,7 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.ListFragment;
 
-import com.example.contactmanager.data.Contact;
+import com.example.contact_manager.data.Contact;
 
 import java.util.List;
 

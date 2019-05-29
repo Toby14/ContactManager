@@ -1,4 +1,4 @@
-package com.example.contactmanager;
+package com.example.contact_manager;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -7,11 +7,10 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.TextView;
-import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
-    public static final String USER_NAME = "com.example.contactmanager.USER_NAME";
+    public static final String USER_NAME = "com.example.contact_manager.USER_NAME";
     private EditText mUsername;
     private EditText mPassword;
     private TextView wrongInput;

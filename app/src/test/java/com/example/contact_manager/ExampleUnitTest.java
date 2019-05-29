@@ -1,4 +1,4 @@
-package com.example.contactmanager;
+package com.example.contact_manager;
 
 import org.junit.Test;
 

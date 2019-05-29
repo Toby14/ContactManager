@@ -11,15 +11,15 @@
 
     <ImageView
         android:id="@+id/conan_img"
-        android:layout_width="232dp"
-        android:layout_height="217dp"
+        android:layout_width="135dp"
+        android:layout_height="105dp"
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"
-        android:layout_marginTop="148dp"
+        android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintHorizontal_bias="0.488"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/conan_icon" />
@@ -28,47 +28,42 @@
         android:id="@+id/userName_textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="63dp"
-        android:layout_marginLeft="63dp"
-        android:layout_marginTop="24dp"
-        android:layout_marginEnd="283dp"
-        android:layout_marginRight="283dp"
+        android:layout_marginTop="5dp"
         android:text="@string/username"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
+        android:textSize="11sp"
+        app:layout_constraintStart_toStartOf="@+id/userName_editText"
         app:layout_constraintTop_toBottomOf="@+id/conan_img" />
 
     <EditText
         android:id="@+id/userName_editText"
         android:layout_width="290dp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="63dp"
-        android:layout_marginLeft="63dp"
         android:ems="10"
         android:inputType="textPersonName"
-        app:layout_constraintStart_toStartOf="parent"
+        android:textSize="11sp"
+        app:layout_constraintEnd_toEndOf="@+id/conan_img"
+        app:layout_constraintStart_toStartOf="@+id/conan_img"
         app:layout_constraintTop_toBottomOf="@+id/userName_textView" />
 
     <TextView
         android:id="@+id/pass_textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="63dp"
-        android:layout_marginLeft="63dp"
         android:layout_marginTop="8dp"
         android:text="@string/password"
-        app:layout_constraintStart_toStartOf="parent"
+        android:textSize="11sp"
+        app:layout_constraintStart_toStartOf="@+id/userName_textView"
         app:layout_constraintTop_toBottomOf="@+id/userName_editText" />
 
     <EditText
         android:id="@+id/pass_editText"
         android:layout_width="290dp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="63dp"
-        android:layout_marginLeft="63dp"
         android:ems="10"
         android:inputType="textPassword"
-        app:layout_constraintStart_toStartOf="parent"
+        android:textSize="11sp"
+        app:layout_constraintEnd_toEndOf="@+id/userName_editText"
+        app:layout_constraintStart_toStartOf="@+id/userName_editText"
         app:layout_constraintTop_toBottomOf="@+id/pass_textView" />
 
     <Button
@@ -90,8 +85,9 @@
         android:id="@+id/register_textView"
         android:layout_width="wrap_content"
         android:layout_height="20dp"
-        android:layout_marginTop="24dp"
+        android:layout_marginTop="8dp"
         android:text="@string/register"
+        android:textSize="11sp"
         app:layout_constraintEnd_toEndOf="@+id/button"
         app:layout_constraintStart_toStartOf="@+id/button"
         app:layout_constraintTop_toBottomOf="@+id/button" />
@@ -100,11 +96,9 @@
         android:id="@+id/display_wrong_input"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="63dp"
-        android:layout_marginLeft="63dp"
-        android:textSize="10sp"
         android:textColor="@android:color/holo_red_dark"
-        app:layout_constraintStart_toStartOf="parent"
+        android:textSize="10sp"
+        app:layout_constraintStart_toStartOf="@+id/pass_editText"
         app:layout_constraintTop_toBottomOf="@+id/pass_editText" />
 
 

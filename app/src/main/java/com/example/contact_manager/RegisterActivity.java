@@ -1,4 +1,4 @@
-package com.example.contactmanager;
+package com.example.contact_manager;
 
 import android.content.Intent;
 import android.os.Bundle;

@@ -1,4 +1,4 @@
-package com.example.contactmanager.data;
+package com.example.contact_manager.data;
 
 import android.os.Bundle;
 
